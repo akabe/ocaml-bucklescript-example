@@ -57,3 +57,7 @@ typings/
 # dotenv environment variables file
 .env
 
+# BuckleScript generated files
+.merlin
+lib
+frontend/dist

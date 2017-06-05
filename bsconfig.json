@@ -1,0 +1,21 @@
+{
+  "name": "ocaml-bucklescript-example",
+  "version": "1.0.0",
+
+  "generate-merlin" : true,
+
+  "bsc-flags": [
+    "-w",
+    "-40",
+    "-bs-no-version-header",
+    "-bs-cross-module-opt"
+  ],
+  // "ppx-flags": [ "reason/bin/ppx_lwt" ],
+  "sources": {
+    "dir": "frontend/src/ocaml",
+    "subdirs": [],
+    "files": [
+      "Main.ml"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "bucklescript-example",
+  "version": "1.0.0",
+  "description": "An example of BuckleScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akinori ABE",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "bootstrap.native": "^2.0.10",
+    "bs-platform": "^1.7.4",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-pleeease": "^2.0.2",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "pug": "^2.0.0-rc.2",
+    "sass": "^0.5.0"
+  }
+}
