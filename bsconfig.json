@@ -4,16 +4,23 @@
 
   "generate-merlin" : true,
 
+  "package-specs": [
+    "commonjs"
+  ],
   "bsc-flags": [
     "-w",
     "-40",
     "-bs-no-version-header",
     "-bs-cross-module-opt"
   ],
-  // "ppx-flags": [ "reason/bin/ppx_lwt" ],
+  "ppx-flags": [
+    "ppx_lwt"
+  ],
   "sources": {
     "dir": "frontend/src/ocaml",
-    "subdirs": [],
+    "subdirs": [
+      "bindings"
+    ],
     "files": [
       "Main.ml"
     ]

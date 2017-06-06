@@ -44,3 +44,9 @@ gulp.task('webpack', ['ocaml'], function () {
 });
 
 gulp.task('default', ['pug', 'sass', 'webpack']);
+
+gulp.task('watch', ['default'], function() {
+  gulp.watch('frontend/src/**/*.pug', ['pug']);
+  gulp.watch('frontend/src/**/*.scss', ['sass']);
+  gulp.watch('frontend/src/**/*.ml', ['webpack']);
+});
